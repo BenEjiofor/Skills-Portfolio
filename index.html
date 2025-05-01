@@ -5,33 +5,64 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Professional Development Portfolio</title>
   <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
     body {
-      font-family: Arial, sans-serif;
+      font-family: 'Inter', sans-serif;
+      background-color: #fafafa;
+      color: #1f1f1f;
       margin: 0;
-      padding: 40px;
-      max-width: 900px;
+      padding: 2rem;
+      max-width: 960px;
       margin: auto;
-      background-color: #f9f9f9;
-      color: #333;
+      line-height: 1.7;
     }
-    h1, h2 {
-      color: #004080;
+    h1, h2, h3 {
+      color: #20232a;
+      border-bottom: 1px solid #e0e0e0;
+      padding-bottom: 0.3rem;
+    }
+    h1 {
+      font-size: 2.25rem;
+      margin-bottom: 1rem;
+    }
+    h2 {
+      margin-top: 2.5rem;
+      font-size: 1.5rem;
+    }
+    h3 {
+      font-size: 1.25rem;
+      margin-top: 1.5rem;
     }
     section {
-      margin-bottom: 50px;
+      background-color: #ffffff;
+      padding: 2rem;
+      margin-bottom: 2rem;
+      border-radius: 10px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+    }
+    ul {
+      padding-left: 1.5rem;
+    }
+    ul li {
+      margin-bottom: 0.5rem;
     }
     .cpd-table {
       width: 100%;
       border-collapse: collapse;
-      margin-top: 20px;
+      margin-top: 1rem;
+      font-size: 0.95rem;
     }
     .cpd-table th, .cpd-table td {
-      border: 1px solid #ccc;
+      border: 1px solid #dcdcdc;
       padding: 10px;
       text-align: left;
     }
     .cpd-table th {
-      background-color: #e6f2ff;
+      background-color: #f2f7fb;
+      font-weight: 600;
+    }
+    strong {
+      color: #003366;
     }
   </style>
 </head>

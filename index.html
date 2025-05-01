@@ -11,10 +11,32 @@
       background-color: #fafafa;
       color: #1f1f1f;
       margin: 0;
+      padding: 0;
+      line-height: 1.7;
+    }
+    header {
+      background-color: #003366;
+      padding: 1rem 2rem;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      flex-wrap: wrap;
+    }
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 1rem;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    main {
       padding: 2rem;
       max-width: 960px;
       margin: auto;
-      line-height: 1.7;
     }
     h1, h2, h3 {
       color: #20232a;
@@ -67,112 +89,123 @@
   </style>
 </head>
 <body>
-  <h1>Professional Development Portfolio</h1>
+  <header>
+    <nav>
+      <a href="#career">Career Goals</a>
+      <a href="#skills">Skills Analysis</a>
+      <a href="#cpd">CPD</a>
+      <a href="#conduct">Professional Conduct</a>
+    </nav>
+  </header>
 
-  <section>
-    <h2>1. Career Aspirations & Required Skills</h2>
-    <p>I have always been passionate about technology and enjoy using it to solve real-world problems. My long-term ambition is to own my own technology company that develops software and mobile apps tailored for business needs. In the short term, I aim to gain experience in roles that combine software design or app development with sales, such as technical sales consultant, junior app developer, or product specialist for SaaS platforms.</p>
-    <p>One company I particularly admire is Amazon, not just for their innovation in e-commerce, but also for their ability to grow across industries—from cloud computing to smart home technology. I find their combination of tech development, strong branding, and customer-focused selling very inspiring.</p>
-    <p>To build the skills needed for my goals, I have started developing an AI-powered app designed to help small business owners manage their companies more effectively. This project has helped me grow my technical skills in areas like UI/UX design and no-code/low-code development platforms. Alongside this, I work in door-to-door sales as a part-time job, which has significantly developed my communication and customer engagement skills.</p>
-    <p><strong>Skills I Need to Develop:</strong> HTML, JavaScript, Python, app development, communication, pitching, teamwork, Figma, GitHub, CRM tools.</p>
-  </section>
+  <main>
+    <h1>Professional Development Portfolio</h1>
 
-  <section>
-    <h2>2. Analysis & Evidence of Own Skills</h2>
-    <h3>Technical Skills</h3>
-    <ul>
-      <li><strong>App Building:</strong> Intermediate – Currently building an AI-powered business assistant using Bubble.</li>
-      <li><strong>HTML & GitHub:</strong> Beginner – Developed personal portfolio using GitHub Pages and basic HTML.</li>
-      <li><strong>Problem Solving:</strong> Good – Used logic and planning to build features into my own app.</li>
-    </ul>
-    <h3>Professional Skills</h3>
-    <ul>
-      <li><strong>Sales Communication:</strong> Strong – Gained through door-to-door sales experience.</li>
-      <li><strong>Time Management:</strong> Improving – Balancing studies, app development, and part-time work.</li>
-      <li><strong>Teamwork & Adaptability:</strong> Strong – Collaborated in uni projects and worked independently on a client-focused app.</li>
-    </ul>
-    <p><strong>Areas for Development:</strong> Improve coding in JavaScript/Python, write clearer documentation, learn CRM tools, improve pitch delivery.</p>
-  </section>
+    <section id="career">
+      <h2>1. Career Aspirations & Required Skills</h2>
+      <p>I have always been passionate about technology and enjoy using it to solve real-world problems. My long-term ambition is to own my own technology company that develops software and mobile apps tailored for business needs. In the short term, I aim to gain experience in roles that combine software design or app development with sales, such as technical sales consultant, junior app developer, or product specialist for SaaS platforms.</p>
+      <p>One company I particularly admire is Amazon, not just for their innovation in e-commerce, but also for their ability to grow across industries—from cloud computing to smart home technology. I find their combination of tech development, strong branding, and customer-focused selling very inspiring.</p>
+      <p>To build the skills needed for my goals, I have started developing an AI-powered app designed to help small business owners manage their companies more effectively. This project has helped me grow my technical skills in areas like UI/UX design and no-code/low-code development platforms. Alongside this, I work in door-to-door sales as a part-time job, which has significantly developed my communication and customer engagement skills.</p>
+      <p><strong>Skills I Need to Develop:</strong> HTML, JavaScript, Python, app development, communication, pitching, teamwork, Figma, GitHub, CRM tools.</p>
+    </section>
 
-  <section>
-    <h2>3. Knowledge & Skills Development (CPD)</h2>
-    <h3>Development Plan</h3>
-    <ul>
-      <li>Improve coding via LinkedIn Learning and mini projects</li>
-      <li>Document technical work on GitHub</li>
-      <li>Practice pitching with friends or at events</li>
-      <li>Learn UI tools like Figma</li>
-      <li>Explore CRM platforms like Salesforce</li>
-    </ul>
-    <h3>Completed CPD Activities</h3>
-    <table class="cpd-table">
-      <thead>
-        <tr>
-          <th>Activity Name</th>
-          <th>Date</th>
-          <th>Type</th>
-          <th>Why Important</th>
-          <th>What Happened / Learned</th>
-          <th>Next Steps</th>
-          <th>Hours</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>Building Your Personal Brand Online – LinkedIn Learning</td>
-          <td>15/02/25</td>
-          <td>Online Learning</td>
-          <td>Helps develop LinkedIn profile and online presence</td>
-          <td>Learned to structure profile and showcase projects</td>
-          <td>Update LinkedIn and post about my app</td>
-          <td>2</td>
-        </tr>
-        <tr>
-          <td>Door-to-Door Sales Work</td>
-          <td>Ongoing</td>
-          <td>Work-based Learning</td>
-          <td>Builds sales and communication confidence</td>
-          <td>Learned to handle objections and pitch effectively</td>
-          <td>Reflect on persuasive strategies</td>
-          <td>5</td>
-        </tr>
-        <tr>
-          <td>AI No-Code App Development</td>
-          <td>Jan–Apr 2025</td>
-          <td>Personal Project</td>
-          <td>Combines tech skills with real-world needs</td>
-          <td>Developed app for small business support using Bubble</td>
-          <td>Add features, test with real users</td>
-          <td>8</td>
-        </tr>
-        <tr>
-          <td>HTML and GitHub Pages</td>
-          <td>Feb–Mar 2025</td>
-          <td>Technical Learning</td>
-          <td>Essential for portfolio creation</td>
-          <td>Learned HTML structure and GitHub Pages</td>
-          <td>Apply to future projects</td>
-          <td>3</td>
-        </tr>
-        <tr>
-          <td>LinkedIn Learning – JavaScript Essentials</td>
-          <td>10/04/25</td>
-          <td>Online Learning</td>
-          <td>Improves programming skill for app development</td>
-          <td>Learned syntax, loops, DOM manipulation</td>
-          <td>Build a mini project</td>
-          <td>5</td>
-        </tr>
-      </tbody>
-    </table>
-    <p><strong>Total CPD Hours:</strong> 23</p>
-  </section>
+    <section id="skills">
+      <h2>2. Analysis & Evidence of Own Skills</h2>
+      <h3>Technical Skills</h3>
+      <ul>
+        <li><strong>App Building:</strong> Intermediate – Currently building an AI-powered business assistant using Bubble.</li>
+        <li><strong>HTML & GitHub:</strong> Beginner – Developed personal portfolio using GitHub Pages and basic HTML.</li>
+        <li><strong>Problem Solving:</strong> Good – Used logic and planning to build features into my own app.</li>
+      </ul>
+      <h3>Professional Skills</h3>
+      <ul>
+        <li><strong>Sales Communication:</strong> Strong – Gained through door-to-door sales experience.</li>
+        <li><strong>Time Management:</strong> Improving – Balancing studies, app development, and part-time work.</li>
+        <li><strong>Teamwork & Adaptability:</strong> Strong – Collaborated in uni projects and worked independently on a client-focused app.</li>
+      </ul>
+      <p><strong>Areas for Development:</strong> Improve coding in JavaScript/Python, write clearer documentation, learn CRM tools, improve pitch delivery.</p>
+    </section>
 
-  <section>
-    <h2>4. Reflection on Professional Conduct</h2>
-    <p>Professional conduct is essential both as a student and in any future career, especially in the tech industry. Through this module and my experiences, I’ve learned that professionalism means more than just showing up—it includes acting ethically, being accountable, and respecting others’ work.</p>
-    <p>From the NTU Student Code and BCS Code of Conduct, I understand the importance of integrity, data protection, and treating others with fairness and respect. During this module, I’ve shown professionalism by managing my time across university, a part-time job, and an independent app project. I’ve avoided plagiarism, met deadlines, and worked independently on tasks.</p>
-    <p>In my future career, whether working in a tech firm or running my own business, I will carry forward values like clear communication, respect for users' data, inclusivity, and transparency. One area I want to keep improving is documentation and technical clarity, especially when explaining ideas to non-technical audiences.</p>
-  </section>
+    <section id="cpd">
+      <h2>3. Knowledge & Skills Development (CPD)</h2>
+      <h3>Development Plan</h3>
+      <ul>
+        <li>Improve coding via LinkedIn Learning and mini projects</li>
+        <li>Document technical work on GitHub</li>
+        <li>Practice pitching with friends or at events</li>
+        <li>Learn UI tools like Figma</li>
+        <li>Explore CRM platforms like Salesforce</li>
+      </ul>
+      <h3>Completed CPD Activities</h3>
+      <table class="cpd-table">
+        <thead>
+          <tr>
+            <th>Activity Name</th>
+            <th>Date</th>
+            <th>Type</th>
+            <th>Why Important</th>
+            <th>What Happened / Learned</th>
+            <th>Next Steps</th>
+            <th>Hours</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Building Your Personal Brand Online – LinkedIn Learning</td>
+            <td>15/02/25</td>
+            <td>Online Learning</td>
+            <td>Helps develop LinkedIn profile and online presence</td>
+            <td>Learned to structure profile and showcase projects</td>
+            <td>Update LinkedIn and post about my app</td>
+            <td>2</td>
+          </tr>
+          <tr>
+            <td>Door-to-Door Sales Work</td>
+            <td>Ongoing</td>
+            <td>Work-based Learning</td>
+            <td>Builds sales and communication confidence</td>
+            <td>Learned to handle objections and pitch effectively</td>
+            <td>Reflect on persuasive strategies</td>
+            <td>5</td>
+          </tr>
+          <tr>
+            <td>AI No-Code App Development</td>
+            <td>Jan–Apr 2025</td>
+            <td>Personal Project</td>
+            <td>Combines tech skills with real-world needs</td>
+            <td>Developed app for small business support using Bubble</td>
+            <td>Add features, test with real users</td>
+            <td>8</td>
+          </tr>
+          <tr>
+            <td>HTML and GitHub Pages</td>
+            <td>Feb–Mar 2025</td>
+            <td>Technical Learning</td>
+            <td>Essential for portfolio creation</td>
+            <td>Learned HTML structure and GitHub Pages</td>
+            <td>Apply to future projects</td>
+            <td>3</td>
+          </tr>
+          <tr>
+            <td>LinkedIn Learning – JavaScript Essentials</td>
+            <td>10/04/25</td>
+            <td>Online Learning</td>
+            <td>Improves programming skill for app development</td>
+            <td>Learned syntax, loops, DOM manipulation</td>
+            <td>Build a mini project</td>
+            <td>5</td>
+          </tr>
+        </tbody>
+      </table>
+      <p><strong>Total CPD Hours:</strong> 23</p>
+    </section>
+
+    <section id="conduct">
+      <h2>4. Reflection on Professional Conduct</h2>
+      <p>Professional conduct is essential both as a student and in any future career, especially in the tech industry. Through this module and my experiences, I’ve learned that professionalism means more than just showing up—it includes acting ethically, being accountable, and respecting others’ work.</p>
+      <p>From the NTU Student Code and BCS Code of Conduct, I understand the importance of integrity, data protection, and treating others with fairness and respect. During this module, I’ve shown professionalism by managing my time across university, a part-time job, and an independent app project. I’ve avoided plagiarism, met deadlines, and worked independently on tasks.</p>
+      <p>In my future career, whether working in a tech firm or running my own business, I will carry forward values like clear communication, respect for users' data, inclusivity, and transparency. One area I want to keep improving is documentation and technical clarity, especially when explaining ideas to non-technical audiences.</p>
+    </section>
+  </main>
 </body>
 </html>
